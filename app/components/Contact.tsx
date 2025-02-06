@@ -6,7 +6,7 @@ import { motion } from "motion/react"
 const Contact = () => {
     const [result, setResult] = useState("");
 
-    const onSubmit = async (event: any) => {
+    const onSubmit = async (event) => {
         event.preventDefault();
         setResult("Sending....");
         const formData = new FormData(event.target);
@@ -49,7 +49,7 @@ const Contact = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
                 className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-                I'd love to hear from you! If you have any questions, comments. or feedback,
+                I&apos;d love to hear from you! If you have any questions, comments. or feedback,
                 please use the form below.
             </motion.p>
             <motion.form
