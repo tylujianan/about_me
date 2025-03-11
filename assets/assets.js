@@ -35,6 +35,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import cover from './home.jpg';
 
 export const assets = {
     user_image,
@@ -73,7 +74,9 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+
+    cover
 };
 
 export const workData = [
@@ -115,3 +118,16 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+
+export const diaryList = Array.from({ length: 23 }).map((_, i) => ({
+    id: i,
+    date: '2025年2月8日  正月十一',
+    weather: '晴',
+    content: 'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
+    image: assets.cover,
+    href: 'https://ant.design',
+    title: `ant design part ${i}`,
+    avatar: `https://api.dicebear.com/7.x/miniavs/svg?seed=${i}`,
+    description:
+        'Ant Design, a design language for background applications, is refined by Ant UED Team.',
+}));
