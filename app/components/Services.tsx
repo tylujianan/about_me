@@ -31,7 +31,7 @@ const Services = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.9 }}
-                className='grid grid-cols-auto gap-6 my-10'>
+                className='grid md:flex gap-6 my-10'>
                 {serviceData.map(({ icon, title, description, link }, index) => (
                     <motion.div
                         whileHover={{ scale: 1.05 }}
