@@ -37,6 +37,14 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import cover from './home.jpg';
 
+import book1 from './img21.jpg';
+import book2 from './img22.jpg';
+import book3 from './img23.jpg';
+import book4 from './img24.jpg';
+import book5 from './img25.jpg';
+import book6 from './img26.jpg';
+import book7 from './img27.jpg';
+
 export const assets = {
     user_image,
     code_icon,
@@ -76,7 +84,15 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
 
-    cover
+    cover,
+    
+    book1,
+    book2,
+    book3,
+    book4,
+    book5,
+    book6,
+    book7
 };
 
 export const workData = [

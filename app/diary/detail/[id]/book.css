@@ -1,0 +1,27 @@
+.my-diary:hover{
+    transform: translateX(150px);
+    li:nth-child(1){
+        transform: rotateY(-180deg);
+        transition: 1.4s;
+    }
+    li:nth-child(2){
+        transform: rotateY(-180deg);
+        transition: 2s;
+    }
+    li:nth-child(3){
+        transform: rotateY(-180deg);
+        transition: 2.6s;
+    }
+    li:nth-child(4){
+        transform: rotateY(-180deg);
+        transition: 3.2s;
+    }
+    li:nth-child(5){
+        transform: rotateY(-180deg);
+        transition: 3.8s;
+    }
+    li:nth-child(6){
+        transform: rotateY(-180deg);
+        transition: 4.4s;
+    }
+}
