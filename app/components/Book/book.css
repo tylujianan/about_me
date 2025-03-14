@@ -1,5 +1,4 @@
-.my-diary:hover{
-    transform: translateX(150px);
+.flip_book:hover{
     li:nth-child(1){
         transform: rotateY(-180deg);
         transition: 1.4s;
