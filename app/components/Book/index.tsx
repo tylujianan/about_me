@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { assets } from '@/assets/assets'
 import './book.css'
 
 // interface IBookData {
